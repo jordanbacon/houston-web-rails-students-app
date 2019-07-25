@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Instructor.delete_all
+Student.delete_all
+
 i1 = Instructor.create(name: 'Ms. Frizzle')
 i2 = Instructor.create(name: 'Mr. Feeny')
 
